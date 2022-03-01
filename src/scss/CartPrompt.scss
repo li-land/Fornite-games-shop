@@ -1,0 +1,16 @@
+.prompt {
+  position: fixed;
+  bottom: 100px;
+  right: 80px;
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  transform: skew(-10deg);
+  transition: all 0.3s;
+  &__content {
+    font-family: Kankin, sans-serif;
+    font-size: 16px;
+  }
+}

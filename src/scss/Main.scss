@@ -1,0 +1,8 @@
+.page {
+  flex: 1 1 auto;
+  padding: 50px 30px;
+  &__container {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+}

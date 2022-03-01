@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("./Header.scss");
+@import url("./Main.scss");
+@import url("./Goods.scss");
+@import url("./Good.scss");
+@import url("./Cart.scss");
+@import url("./CartPrompt.scss");
+@import url("./Basket.scss");
+@import url("./Footer.scss");
+@import url("./media.scss");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@font-face {
+  font-family: Kankin;
+  src: url("../fonts/Kankin-Regular.ttf");
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(26, 42, 42);
+}
+.lock {
+  overflow: hidden;
+}
+
+.wrapper {
+  min-height: 100vh;
+  min-width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}

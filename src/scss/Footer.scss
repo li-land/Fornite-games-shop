@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background: #252525;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 8px;
+  &__copyright {
+    font-family: Kankin, sans-serif;
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+}

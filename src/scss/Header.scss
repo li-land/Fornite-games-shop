@@ -1,0 +1,104 @@
+.header {
+  min-height: 100vh;
+  background-image: url("../img/HenchBoss-Guide.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 170px 20px 50px;
+  &__content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__title {
+    font-family: Kankin, sans-serif;
+    font-size: 100px;
+    letter-spacing: 2px;
+    line-height: 100%;
+    margin-bottom: 30px;
+    -webkit-animation: title 1.5s ease-in 0.2s, show 1.5s backwards 0.2s;
+    animation: title 1.5s ease-in 0.2s, show 1.5s backwards 0.2s;
+    span {
+      text-transform: uppercase;
+    }
+  }
+  &__subtitle {
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    margin-bottom: 100px;
+    -webkit-animation: show 1.5s backwards 1.3s;
+    animation: show 1.5s backwards 1.3s;
+  }
+  &__button {
+    padding: 20px 40px;
+    background-color: #e1e438;
+    box-shadow: 0 0 10px #e1e438;
+    transform: skew(-10deg, 0);
+    font-family: Kankin, sans-serif;
+    font-size: 20px;
+    transition: all 0.3s;
+    -webkit-animation: show 1.5s backwards 1.8s;
+    animation: show 1.5s backwards 1.8s;
+
+    &:hover {
+      transform: skew(-20deg, 0);
+    }
+    &:active {
+      font-size: 19px;
+      padding: 19px 39px;
+    }
+  }
+}
+
+@-webkit-keyframes title {
+  from {
+    transform: translateY(170px);
+    line-height: 20%;
+  }
+
+  to {
+    transform: translateY(0);
+    line-height: 100%;
+  }
+}
+
+@keyframes title {
+  from {
+    transform: translateY(170px);
+    line-height: 20%;
+  }
+
+  to {
+    transform: translateY(0);
+    line-height: 100%;
+  }
+}
+
+@-webkit-keyframes show {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
