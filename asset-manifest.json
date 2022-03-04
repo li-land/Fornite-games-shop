@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Fornite-games-shop/static/css/main.383b2974.css",
-    "main.js": "/Fornite-games-shop/static/js/main.5912ae2f.js",
+    "main.css": "/Fornite-games-shop/static/css/main.58180e8c.css",
+    "main.js": "/Fornite-games-shop/static/js/main.dd87ccb6.js",
     "static/media/HenchBoss-Guide.jpg": "/Fornite-games-shop/static/media/HenchBoss-Guide.bd9bfaa908dd35ff9429.jpg",
     "static/media/Kankin-Regular.ttf": "/Fornite-games-shop/static/media/Kankin-Regular.2910e6c7513fa70c95c3.ttf",
     "static/media/shopping-cart.png": "/Fornite-games-shop/static/media/shopping-cart.6b1380b0dc6d1c13ffab.png",
     "index.html": "/Fornite-games-shop/index.html",
-    "main.383b2974.css.map": "/Fornite-games-shop/static/css/main.383b2974.css.map",
-    "main.5912ae2f.js.map": "/Fornite-games-shop/static/js/main.5912ae2f.js.map"
+    "main.58180e8c.css.map": "/Fornite-games-shop/static/css/main.58180e8c.css.map",
+    "main.dd87ccb6.js.map": "/Fornite-games-shop/static/js/main.dd87ccb6.js.map"
   },
   "entrypoints": [
-    "static/css/main.383b2974.css",
-    "static/js/main.5912ae2f.js"
+    "static/css/main.58180e8c.css",
+    "static/js/main.dd87ccb6.js"
   ]
 }
