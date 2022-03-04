@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
+import { GoodsContext } from "../context";
 import cartIcon from "../icon/shopping-cart.png";
 
-function Cart(props) {
+function Cart({ quantity = 0 }) {
+  const { handleCartShow } = useContext(GoodsContext);
+
   const body = document.body;
-  const { quantity = 0, handleCartShow = Function.prototype } = props;
+
   return (
     <div
       className="cart"
@@ -14,7 +17,6 @@ function Cart(props) {
         } else {
           body.classList.remove("lock");
         }
-        console.log(document.body.style);
       }}
     >
       <div className="cart__icon">

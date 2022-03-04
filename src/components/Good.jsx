@@ -1,16 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
+import { GoodsContext } from "../context";
 
 export function Good(props) {
-  const {
-    mainId,
-    displayName,
-    displayType,
-    displayDescription,
-    addtoCart = Function.prototype,
-  } = props;
+  const { mainId, displayName, displayType, displayDescription } = props;
 
   const price = props.price.regularPrice;
   const displayAssets = props.displayAssets[0].background;
+
+  const { addtoCart } = useContext(GoodsContext);
 
   return (
     <div className="page__card card">
